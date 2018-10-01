@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.WEB", "NLayer.WEB\NLayer.WEB.csproj", "{B9934364-D7AF-4CA7-8766-0538F4C5DE08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.DAL", "NLayer.DAL\NLayer.DAL.csproj", "{5EF96B32-F690-4EDA-A81B-FFB88B3F2BFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.BLL", "NLayer.BLL\NLayer.BLL.csproj", "{57CA8CE8-66C8-4184-9677-E32528A83913}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9934364-D7AF-4CA7-8766-0538F4C5DE08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9934364-D7AF-4CA7-8766-0538F4C5DE08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9934364-D7AF-4CA7-8766-0538F4C5DE08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9934364-D7AF-4CA7-8766-0538F4C5DE08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EF96B32-F690-4EDA-A81B-FFB88B3F2BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF96B32-F690-4EDA-A81B-FFB88B3F2BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF96B32-F690-4EDA-A81B-FFB88B3F2BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF96B32-F690-4EDA-A81B-FFB88B3F2BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57CA8CE8-66C8-4184-9677-E32528A83913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57CA8CE8-66C8-4184-9677-E32528A83913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57CA8CE8-66C8-4184-9677-E32528A83913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57CA8CE8-66C8-4184-9677-E32528A83913}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF7F3628-9528-4CDE-A62B-519480F8C3FE}
+	EndGlobalSection
+EndGlobal

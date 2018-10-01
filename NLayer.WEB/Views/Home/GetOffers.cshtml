@@ -1,0 +1,13 @@
+﻿@model IEnumerable<NLayer.WEB.Models.GetOffersViewModel>
+@{
+    ViewBag.Title = "Offers";
+}
+
+
+<h3>choose offer</h3>
+<select>
+    @foreach (var off in Model)
+    {
+        <option>@off.Name</option>
+    }
+</select>
